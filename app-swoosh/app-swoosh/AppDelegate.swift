@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  app-swoosh
 //
-//  Created by Angela Coleman on 2/24/18.
+//  Created by Michael Crimando on 2/24/18.
 //  Copyright © 2018 Big Dev Industries. All rights reserved.
 //
 
