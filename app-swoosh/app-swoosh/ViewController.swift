@@ -12,16 +12,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var swooshLogo: UIImageView!
     @IBOutlet weak var bgImage: UIImageView!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue) {
+        
     }
 
-
 }
-
