@@ -2,7 +2,7 @@
 //  SkillVCViewController.swift
 //  app-swoosh
 //
-//  Created by Angela Coleman on 3/8/18.
+//  Created by Michael Crimando on 3/8/18.
 //  Copyright © 2018 Big Dev Industries. All rights reserved.
 //
 
