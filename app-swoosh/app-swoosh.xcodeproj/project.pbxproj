@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29EB670020669EB7007593CC /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB66FF20669EB7007593CC /* Player.swift */; };
 		905BA5712051ACF2003F3958 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905BA5702051ACF2003F3958 /* SkillVC.swift */; };
 		905BA5732051AD07003F3958 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905BA5722051AD07003F3958 /* LeagueVC.swift */; };
 		90784C0D2041D85A009B1E90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90784C0C2041D85A009B1E90 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29EB66FF20669EB7007593CC /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		905BA5702051ACF2003F3958 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
 		905BA5722051AD07003F3958 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
 		90784C092041D85A009B1E90 /* app-swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29EB66FE20669EAB007593CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				29EB66FF20669EB7007593CC /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		905BA56E2051AB5E003F3958 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -49,13 +59,6 @@
 				905BA5722051AD07003F3958 /* LeagueVC.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		905BA56F2051ABBE003F3958 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		90784C002041D85A009B1E90 = {
@@ -77,7 +80,7 @@
 		90784C0B2041D85A009B1E90 /* app-swoosh */ = {
 			isa = PBXGroup;
 			children = (
-				905BA56F2051ABBE003F3958 /* Model */,
+				29EB66FE20669EAB007593CC /* Model */,
 				905BA56E2051AB5E003F3958 /* Controller */,
 				90E8966C204A5BEC000F6A29 /* View */,
 				90784C0C2041D85A009B1E90 /* AppDelegate.swift */,
@@ -173,6 +176,7 @@
 				90784C0F2041D85A009B1E90 /* WelcomeVC.swift in Sources */,
 				905BA5712051ACF2003F3958 /* SkillVC.swift in Sources */,
 				90784C0D2041D85A009B1E90 /* AppDelegate.swift in Sources */,
+				29EB670020669EB7007593CC /* Player.swift in Sources */,
 				90E8966E204A5C17000F6A29 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
