@@ -230,7 +230,7 @@
         <!--SkillVC-->
         <scene sceneID="3Dd-U2-yxJ">
             <objects>
-                <viewController id="QwP-6p-qa1" customClass="SkillVC" sceneMemberID="viewController">
+                <viewController id="QwP-6p-qa1" customClass="SkillVC" customModule="app_swoosh" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MGa-io-kZo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
